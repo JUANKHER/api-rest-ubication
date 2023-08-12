@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "1be9cb4e-183f-48df-9ec0-d13b66c50358",
+		"name": "API UBICACIONES",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23436999"
+	},
+	"item": [
+		{
+			"name": "ubicacion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tag\":\"ubicacion\",\r\n    \"latitude\":\"4.636252556\",\r\n    \"longitude\":\"-74.1397985263\",\r\n    \"fecha\":\"2033-08-12 08:00:00\",\r\n    \"estado\":\"Valida\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1/rest/src/post.php",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"rest",
+						"src",
+						"post.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "iniciarsesion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tag\":\"iniciarsesion\",\r\n    \"email\":\"Juann.01040@gmail.com\",\r\n    \"password\":\"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1/rest/src/post.php",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"rest",
+						"src",
+						"post.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tag\":\"registro\",\r\n    \"nombre\":\"juann\",\r\n    \"email\":\"juann.010@gmail.com\",\r\n    \"password\":\"juann\",\r\n    \"phoneNumber\":\"3023503791\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1/rest/src/post.php",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"rest",
+						"src",
+						"post.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
