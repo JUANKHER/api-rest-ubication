@@ -21,7 +21,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1/rest/src/post.php",
+					"raw": "http://127.0.0.1/api-rest-ubication/src/post.php",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -53,7 +53,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1/rest/src/post.php",
+					"raw": "http://127.0.0.1/api-rest-ubication/src/post.php",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -85,7 +85,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1/rest/src/post.php",
+					"raw": "http://127.0.0.1/api-rest-ubication/src/post.php",
 					"protocol": "http",
 					"host": [
 						"127",
